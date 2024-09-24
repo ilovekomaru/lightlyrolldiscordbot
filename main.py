@@ -5,7 +5,7 @@ import random
 import datetime
 import pytz
 
-with open('C:\\py\\discordbotlightlyyroll\\token.txt') as f:
+with open('token.txt') as f:
     BOT_TOKEN = f.read()
 CHANNEL_ID = 1076857187198046370
 intents = discord.Intents.default()
